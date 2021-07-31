@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stars {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes shoot {
+  0% {
+    transform: rotate(-20deg) translateX(0);
+    -webkit-transform: rotate(-20deg) translateX(0);
+    -moz-transform: rotate(-20deg) translateX(0);
+    -ms-transform: rotate(-20deg) translateX(0);
+    -o-transform: rotate(-20deg) translateX(0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(-20deg) translateX(-100vh);
+    -webkit-transform: rotate(-20deg) translateX(-100vh);
+    -moz-transform: rotate(-20deg) translateX(-100vh);
+    -ms-transform: rotate(-20deg) translateX(-100vh);
+    -o-transform: rotate(-20deg) translateX(-100vh);
+    opacity: 0;
+  }
+}
+span {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  width: 150px;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.075) 20%
+  );
+  animation-name: shoot;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+span:nth-child(1) {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  animation-delay: 0.1s;
+  z-index: 1;
+}
+
+span::after:nth-child(2) {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  animation-delay: 0.5s;
+  z-index: 1;
+}
+span:nth-child(3) {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  animation-delay: 1s;
+
+  z-index: 1;
+}
+span:nth-child(4) {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  animation-delay: 1.5s;
+
+  z-index: 1;
+}
+span:nth-child(5) {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+  animation-delay: 1.5s;
+
+  z-index: 1;
+}
+span:nth-child(6) {
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  animation-delay: 2s;
+
+  z-index: 1;
+}
+span:nth-child(7) {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  animation-delay: 2.5s;
+
+  z-index: 1;
+}
+span:nth-child(8) {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  animation-delay: 2.5s;
+
+  z-index: 1;
+}
+span:nth-child(9) {
+  position: absolute;
+  top: 0%;
+  right: 30%;
+  animation-delay: 2.5s;
+
+  z-index: 1;
+}
