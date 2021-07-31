@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 500vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sky img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 80vh;
+  z-index: -2;
+}
+.mountains img {
+  position: fixed;
+  top: 0%;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.car img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 50vh;
+  z-index: 0;
+}
