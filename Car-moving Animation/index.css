@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa&family=Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  transition: 1s;
+  /* height: 100vh; */
+  /* font-family: "Changa", sans-serif; */
+  background-color: rgb(167, 220, 255);
+  animation-name: color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.go {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 80px;
+}
+.sign {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 20;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+.hamburger {
+  z-index: 10;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+.burger {
+  transition: 2s;
+  display: block;
+}
+.cross {
+  transition: 2s;
+  display: none;
+  /* transition: 5s; */
+}
+
+.menu {
+  padding: 20px;
+  display: flex;
+  z-index: 40;
+  /* width: 300px; */
+  /* height: 300px; */
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.display {
+  display: none;
+}
+.menu ul {
+  padding: 20px;
+}
+.menu ul li {
+  padding: 10px;
+  list-style: none;
+  cursor: pointer;
+  /* color: blueviolet; */
+}
+.change-car {
+  z-index: 50;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.253);
+}
+.change-car i {
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.change-car li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  text-shadow: 2px 2px 10px black;
+  /* background-color: chartreuse; */
+  /* margin: 30px; */
+  width: 300px;
+  height: 150px;
+}
+.audi-img {
+  background-image: url("audi.jpg");
+  /* background-blend-mod; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mer-img {
+  background-image: url("mer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lambo-img {
+  background-image: url("lambo.jpg");
+  /* background-blend-mod; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.range-img {
+  background-image: url("range.jpg");
+  background-size: cover;
+  /* background-blend-mod; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sky {
+  z-index: 0;
+  transition: 10s;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+}
+.sky img {
+  z-index: 0;
+  width: 150vw;
+  height: 100vh;
+  /* transition: 2s; */
+}
+.background img {
+  position: absolute;
+  top: 0;
+}
+.track img {
+  position: absolute;
+  bottom: 0px;
+  height: 200px;
+  width: 300vw;
+  /* transition: 5s; */
+}
+.control {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.btn {
+  padding: 10px;
+  margin-right: 20px;
+  background-color: blueviolet;
+  cursor: pointer;
+  /* background: none; */
+}
+.move-wheel {
+  animation-name: wheel-rotation;
+  animation-iteration-count: infinite;
+  animation-duration: 0.06s;
+}
+.move-track {
+  animation-name: track;
+  /* animation-timing-function: ease-in-out; */
+  animation-duration: 0.2s;
+  /* animation-fill-mode: ; */
+  animation-iteration-count: infinite;
+}
+.move-sky {
+  animation-name: sky;
+  animation-timing-function: ease-in-out;
+  animation-duration: 100s;
+  /* animation-fill-mode: ; */
+  animation-iteration-count: infinite;
+}
+.move-car {
+  transition: 2s;
+  animation-name: car;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.lambo {
+  display: block;
+  position: absolute;
+  bottom: 120px;
+  left: 20px;
+}
+.lambo-car img {
+  width: 300px;
+}
+.wheel-lambo-1 img {
+  position: absolute;
+  left: 19px;
+  bottom: 3px;
+  width: 89px;
+}
+
+.wheel-lambo-2 img {
+  left: 173px;
+  bottom: 3px;
+  position: absolute;
+  width: 83px;
+}
+.range {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+}
+.range-car img {
+  width: 300px;
+}
+.wheel-range-1 img {
+  position: absolute;
+  left: 45px;
+  bottom: 61px;
+  width: 51px;
+}
+
+.wheel-range-2 img {
+  left: 219px;
+  bottom: 61px;
+  position: absolute;
+  width: 51px;
+}
+.audi {
+  display: none;
+  position: absolute;
+  bottom: 120px;
+  left: 20px;
+}
+.audi-car img {
+  width: 300px;
+}
+.wheel-audi-1 img {
+  position: absolute;
+  left: 31px;
+  bottom: 8px;
+  width: 50px;
+}
+
+.wheel-audi-2 img {
+  left: 204px;
+  bottom: 8px;
+  position: absolute;
+  width: 49px;
+}
+.mer {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: -60px;
+}
+.mer-car img {
+  width: 500px;
+}
+.wheel-mer-1 img {
+  position: absolute;
+  left: 141px;
+  bottom: 80px;
+  width: 65px;
+}
+
+.wheel-mer-2 img {
+  left: 310px;
+  bottom: 83px;
+  position: absolute;
+  width: 64px;
+}
+@keyframes sky {
+  100% {
+    transform: translateX(-650vw);
+    /* display: none; */
+    /* .bg1 { */
+    /* display: none; */
+    /* } */
+  }
+}
+@keyframes track {
+  100% {
+    transform: translateX(-200vw);
+  }
+}
+@keyframes wheel-rotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes car {
+  20% {
+    transform: translateY(2.5px);
+  }
+  80% {
+    transform: translateY(1.5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes color {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  25% {
+    color: rgb(212, 0, 255);
+  }
+  50% {
+    color: rgb(0, 255, 170);
+  }
+  75% {
+    color: rgb(102, 255, 0);
+  }
+  100% {
+    color: red;
+  }
+}

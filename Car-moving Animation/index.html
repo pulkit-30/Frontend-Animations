@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- link css -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- font awsm -->
+    <script
+      src="https://kit.fontawesome.com/25e32ff654.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--  -->
+    <link rel="shortcut icon" href="lambo.jpg" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enjoy Car Ride</title>
+  </head>
+  <body>
+    <div class="sign">Pulkit Gupta</div>
+    <div class="hamburger" onclick="openmenu()">
+      <div class="burger"><i class="fas fa-bars"></i></div>
+      <div class="cross"><i class="fas fa-times"></i></div>
+    </div>
+    <div class="menu display">
+      <i class="fa fa-cog"></i>
+
+      <ul>
+        <li class="items" onclick="openchangecar()">Change Car</li>
+      </ul>
+    </div>
+    <div class="change-car">
+      <i onclick="closechangecar()" class="fas fa-times"></i>
+      <ul>
+        <li class="audi-img" onclick="audi()">Audi</li>
+        <li class="mer-img" onclick="mer()">Mercedes</li>
+        <li class="range-img" onclick="range()">Range-Rover</li>
+        <li class="lambo-img" onclick="lambo()">Lamborghini</li>
+        <!-- <li></li> -->
+      </ul>
+    </div>
+    <div class="sky">
+      <div><img class="bg2" src="bg2.jpg" alt="" /></div>
+      <div><img class="bg1" src="bg1.jpg" alt="" /></div>
+      <div><img class="bg2" src="sky.png" alt="" /></div>
+      <div><img class="bg2" src="bg3.jpg" alt="" /></div>
+      <div><img class="bg2" src="trees.png" alt="" /></div>
+
+      <div><img class="bg2" src="background.jpg" alt="" /></div>
+    </div>
+    <div class="go">Lets go!!!</div>
+    <!-- <div class="background"><img src="bg1.jpg" alt=""></div> -->
+    <div class="track">
+      <img src="track.jpg" alt="" />
+    </div>
+    <div class="control">
+      <button class="move btn" onclick="move()">Start</button>
+      <button class="stop btn" onclick="remove()">Reset</button>
+    </div>
+    <div class="lambo">
+      <div class="lambo-car">
+        <img src="car_body.png" alt="" />
+        <div class="wheel-lambo-1">
+          <img src="lambo-wheel.png" alt="" />
+        </div>
+        <div class="wheel-lambo-2">
+          <img src="lambo-wheel.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="range">
+      <div class="range-car">
+        <img src="range.png" alt="" />
+        <div class="wheel-range-1"><img src="range-wheel.png" alt="" /></div>
+        <div class="wheel-range-2">
+          <img src="range-wheel.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="audi">
+      <div class="audi-car">
+        <img src="audi.png" alt="" />
+        <div class="wheel-audi-1"><img src="audi-wheel.png".png" alt="" /></div>
+        <div class="wheel-audi-2">
+          <img src="audi-wheel.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="mer">
+      <div class="mer-car">
+        <img src="mercedies.png" alt="" />
+        <div class="wheel-mer-1"><img src="mer-wheel.png" alt="" /></div>
+        <div class="wheel-mer-2">
+          <img src="mer-wheel.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
