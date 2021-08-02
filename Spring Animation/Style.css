@@ -33,6 +33,8 @@ body {
   -o-border-radius: 50%;
   animation: animate 1s ease-in-out infinite;
   -webkit-animation: animate 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+  perspective: 10000;
 }
 .ring:nth-child(2) {
   height: 35vw;
