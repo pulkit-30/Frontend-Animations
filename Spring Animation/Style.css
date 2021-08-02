@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e93b81;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 50vw;
+  position: absolute;
+}
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  height: 40vw;
+  width: 40vw;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: animate 1s ease-in-out infinite;
+  -webkit-animation: animate 3s ease-in-out infinite;
+}
+.ring:nth-child(2) {
+  height: 35vw;
+  width: 35vw;
+  animation-delay: 0.1s;
+}
+.ring:nth-child(3) {
+  height: 30vw;
+  width: 30vw;
+  animation-delay: 0.2s;
+}
+.ring:nth-child(4) {
+  height: 25vw;
+  width: 25vw;
+  animation-delay: 0.3s;
+}
+.ring:nth-child(5) {
+  height: 20vw;
+  width: 20vw;
+  animation-delay: 0.4s;
+}
+.ring:nth-child(6) {
+  height: 15vw;
+  width: 15vw;
+  animation-delay: 0.5s;
+}
+.ring:nth-child(7) {
+  height: 10vw;
+  width: 10vw;
+  animation-delay: 0.6s;
+}
+.ring:nth-child(8) {
+  height: 5vw;
+  width: 5vw;
+  animation-delay: 0.7s;
+}
+.ring:nth-child(9) {
+  height: 0vw;
+  width: 0vw;
+  animation-delay: 0.8s;
+}
+@keyframes animate {
+  0% {
+    transform: rotateX(70deg) translateY(80vh);
+    -webkit-transform: rotateX(70deg) translateY(80vh);
+    -moz-transform: rotateX(70deg) translateY(80vh);
+    -ms-transform: rotateX(70deg) translateY(80vh);
+    -o-transform: rotateX(70deg) translateY(80vh);
+  }
+  50% {
+    transform: rotateX(70deg) translateY(-80vh);
+    -webkit-transform: rotateX(70deg) translateY(-80vh);
+    -moz-transform: rotateX(70deg) translateY(-80vh);
+    -ms-transform: rotateX(70deg) translateY(-80vh);
+    -o-transform: rotateX(70deg) translateY(-80vh);
+  }
+  100% {
+    transform: rotateX(70deg) translateY(80vh);
+    -webkit-transform: rotateX(70deg) translateY(80vh);
+    -moz-transform: rotateX(70deg) translateY(80vh);
+    -ms-transform: rotateX(70deg) translateY(80vh);
+    -o-transform: rotateX(70deg) translateY(80vh);
+  }
+}
