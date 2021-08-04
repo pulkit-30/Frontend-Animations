@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #39a2db;
+}
+section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  text-align: center;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.253);
+  font-size: 3.3rem;
+  z-index: 1;
+}
+.wave span {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+}
+.wave span:nth-child(1) {
+  width: 300rem;
+  height: 300rem;
+  animation: animate 10s linear infinite;
+  -webkit-animation: animate 10s linear infinite;
+  background-color: #053742;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}
+.wave span:nth-child(2) {
+  width: 310rem;
+  height: 310rem;
+  animation: animate 25s linear infinite;
+  -webkit-animation: animate 25s linear infinite;
+  background-color: #053742a8;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}
+.wave span:nth-child(3) {
+  width: 320rem;
+  height: 320rem;
+  animation: animate 35s linear infinite;
+  -webkit-animation: animate 35s linear infinite;
+  background-color: #0537422c;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(-95%) translateX(-30%) rotate(0deg);
+    -webkit-transform: translateY(-95%) translateX(-30%) rotate(0deg);
+    -moz-transform: translateY(-95%) translateX(-30%) rotate(0deg);
+    -ms-transform: translateY(-95%) translateX(-30%) rotate(0deg);
+    -o-transform: translateY(-95%) translateX(-30%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-95%) translateX(-30%) rotate(360deg);
+    -webkit-transform: translateY(-95%) translateX(-30%) rotate(360deg);
+    -moz-transform: translateY(-95%) translateX(-30%) rotate(360deg);
+    -ms-transform: translateY(-95%) translateX(-30%) rotate(360deg);
+    -o-transform: translateY(-95%) translateX(-30%) rotate(360deg);
+  }
+}
