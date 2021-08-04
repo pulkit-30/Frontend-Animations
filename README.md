@@ -2,7 +2,7 @@
 Simple Frontend Animation Projects.
 
 ---------
-# you can contribute by following these steps 
+# Follow these steps to contrute in this project-
 1.fork the repo.
 <br/>
 2.create a new branch 
