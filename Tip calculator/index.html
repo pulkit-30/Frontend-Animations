@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <h1>Tip Calculator</h1>
+      <div id="calculator">
+        <p>How much was your bill?</p>
+        <p>
+          <label for="billamt">Rs.</label>
+          <input type="text" id="billamt" placeholder="Bill Amount" />
+        </p>
+        <form>
+        <p>How was your service?</p>
+        <p>
+          <label for="serviceQual"></label>
+          <select id="serviceQual">
+            <option value="0" selected>-- Choose an option--</option>
+            <option value="0.15">15% - Outstanding</option>
+            <option value="0.10">10% - Good</option>
+            <option value="0.05">05% - It was ok</option>
+          </select>
+        </form>
+        </p>
+        <p>How many people are sharing the bill?</p>
+        <input id="peopleamt" type="text" placeholder="Number of people" />
+        <span>people</span>
+        <p><button id="calculate">Calculate!</button></p>
+      </div>
+      <!-- calculator end -->
+
+      <div id="totalTip">
+        <sup>Rs.</sup> <span id="tip">0.00</span>
+        <small id="each">each</small>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
