@@ -18,10 +18,11 @@ Simple Frontend Animation Projects.
 ----------
 ### Your PR will be merge.
 <br/>
-------------------------------------
+----------
+#
 
 
-| Project Name  |    Links                                              |
+| Project Name  |                    Links                              |
 | ------------- | ----------------------------------------------        |
 |   Spring      |  https://pulkit203.github.io/spiral-animation/        |
 |   Animation   |                                                       |
