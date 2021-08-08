@@ -18,8 +18,7 @@ Simple Frontend Animation Projects.
 ----------
 ### Your PR will be merge.
 <br/>
-----------
-#
+
 
 
 | Project Name  |                    Links                              |
