@@ -9,7 +9,7 @@ Simple Frontend Animation Projects.
 <br/>
 3.Create a new project
 <br/>
-4.add developer name and date at footer 
+4.add developer name (linked to your github profile) and Date at footer 
 <br/>
 5.add a readme.md file and add a image of your project in it.
 <br/>
