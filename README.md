@@ -23,5 +23,8 @@ Simple Frontend Animation Projects.
 
 | Project Name  |                    Links                              |
 | ------------- | ----------------------------------------------        |
-|   Spring Animation     |  https://pulkit203.github.io/spiral-animation/        |                                                         
+|   Bubble Animation     |  https://pulkit203.github.io/Bubble-animation/       | 
+|   3D-Image-Rotation Animation     |  https://pulkit203.github.io/3d-image-rotation/   | 
+|   Spring Animation     |  https://pulkit203.github.io/spiral-animation/        | 
+
 
