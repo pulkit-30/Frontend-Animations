@@ -33,14 +33,14 @@ Simple Frontend Animation Projects.
 | 2D to 3D animation          | https://pulkit203.github.io/3d-image-Animation/   |
 | Hamburger Animation         | https://pulkit203.github.io/Hamburger-Menu/       |
 | Loading Animation           | https://pulkit203.github.io/Loading-Animation/    |
-| Mode Toggler                | https://pulkit203.github.io/Hamburger-Menu/       |
+| Mode Toggler                | https://pulkit203.github.io/Mode-Toggler/         |
 | Progress Steps              | https://pulkit203.github.io/progress-steps/       |
 | Rocket Travelling           | https://pulkit203.github.io/Rocket-Travelling/    |
 | Rotating Navigation         | https://pulkit203.github.io/Rotating-Navigation/  |
 | Shooting Stars              | https://pulkit203.github.io/Shooting-Stars/       |
 | Solar Rotation Animation    | https://pulkit203.github.io/Solar-rotation/       |
 | Spring Animation            | https://pulkit203.github.io/spiral-animation/     |
-| Testimonial                 |                                                   |
+| Testimonial                 | https://pulkit203.github.io/Testimonial/          |
 | Tip Calculator              |                                                   |
-| Water Animation             |                                                   |
-| Wave Animation              |                                                   |
+| Water Animation             | https://pulkit203.github.io/Water-animation/      |
+| Wave Animation              | https://pulkit203.github.io/Wave-Animation/       |
