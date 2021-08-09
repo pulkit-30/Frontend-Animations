@@ -28,7 +28,6 @@ Simple Frontend Animation Projects.
 | --------------------------- | ------------------------------------------------- |
 | Bubble Animation            | https://pulkit203.github.io/Bubble-animation/     |
 | 3D-Image-Rotation Animation | https://pulkit203.github.io/3d-image-rotation/    |
-| Spring Animation            | https://pulkit203.github.io/spiral-animation/     |
 | Car Moving Animation        | https://pulkit203.github.io/Car-moving-animation/ |
 | 2D to 3D animation          | https://pulkit203.github.io/3d-image-Animation/   |
 | Hamburger Animation         | https://pulkit203.github.io/Hamburger-Menu/       |
