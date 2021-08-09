@@ -1,3 +1,6 @@
+![Project Intro Gif](https://raw.githubusercontent.com/Pulkit203/project-intro-gif/main/Blue%20and%20Yellow%20Modern%20Artisan%20Parties%20and%20Celebrations%20X-Frame%20Banner.gif)
+
+
 # Frontend-Animation-Projects
 
 Simple Frontend Animation Projects.
