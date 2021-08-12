@@ -1,6 +1,5 @@
 ![Project Intro Gif](https://raw.githubusercontent.com/Pulkit203/project-intro-gif/main/Blue%20and%20Yellow%20Modern%20Artisan%20Parties%20and%20Celebrations%20X-Frame%20Banner.gif)
 
-
 # Frontend-Animation-Projects
 
 Simple Frontend Animation Projects.
@@ -25,17 +24,21 @@ Simple Frontend Animation Projects.
 
 ### Your PR will be merge.
 
-<br/>
+## <br/>
+
+## Project Links
 
 | Project Name                | Links                                             |
 | --------------------------- | ------------------------------------------------- |
-| Bubble Animation            | https://pulkit203.github.io/Bubble-animation/     |
+| Bubble Animation            | https://iamtushar11.github.io/Bubble-animation/   |
 | 3D-Image-Rotation Animation | https://pulkit203.github.io/3d-image-rotation/    |
 | Car Moving Animation        | https://pulkit203.github.io/Car-moving-animation/ |
 | 2D to 3D animation          | https://pulkit203.github.io/3d-image-Animation/   |
 | Hamburger Animation         | https://pulkit203.github.io/Hamburger-Menu/       |
 | Loading Animation           | https://pulkit203.github.io/Loading-Animation/    |
+| Lamp Animation              | https://iamtushar11.github.io/lamp-Animation/     |
 | Mode Toggler                | https://pulkit203.github.io/Mode-Toggler/         |
+| Progress Animation          | https://pulkit203.github.io/Progress-Animation/   |
 | Progress Steps              | https://pulkit203.github.io/progress-steps/       |
 | Rocket Travelling           | https://pulkit203.github.io/Rocket-Travelling/    |
 | Rotating Navigation         | https://pulkit203.github.io/Rotating-Navigation/  |
