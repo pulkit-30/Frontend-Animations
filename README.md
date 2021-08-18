@@ -33,6 +33,7 @@ Simple Frontend Animation Projects.
 | Bubble Animation            | https://iamtushar11.github.io/Bubble-animation/   |
 | 3D-Image-Rotation Animation | https://pulkit203.github.io/3d-image-rotation/    |
 | Car Moving Animation        | https://pulkit203.github.io/Car-moving-animation/ |
+|Clock-Animation|https://pulkit203.github.io/Clock-Animation/|
 | 2D to 3D animation          | https://pulkit203.github.io/3d-image-Animation/   |
 | Hamburger Animation         | https://pulkit203.github.io/Hamburger-Menu/       |
 | Loading Animation           | https://pulkit203.github.io/Loading-Animation/    |
