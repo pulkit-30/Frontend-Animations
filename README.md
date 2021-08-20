@@ -3,28 +3,8 @@
 # Frontend-Animation-Projects
 
 Simple Frontend Animation Projects.
-
+<br/>
 ---
-
-# Follow these steps to contribute -
-
-1.fork the repo.
-<br/>
-2.create a new branch
-<br/>
-3.Create a new project
-<br/>
-4.add developer name (linked to your github profile) and Date at footer
-<br/>
-5.add a readme.md file and add a image of your project in it.
-<br/> 6. Open PR
-<br/>
-
----
-
-### Your PR will be merge.
-
-## <br/>
 
 ## Project Links
 
@@ -38,6 +18,7 @@ Simple Frontend Animation Projects.
 | Hamburger Animation         | https://pulkit203.github.io/Hamburger-Menu/       |
 | Loading Animation           | https://pulkit203.github.io/Loading-Animation/    |
 | Lamp Animation              | https://iamtushar11.github.io/lamp-Animation/     |
+|No Image|https://iamtushar11.github.io/See-the-Pointer/|
 | Mode Toggler                | https://pulkit203.github.io/Mode-Toggler/         |
 | Progress Animation          | https://pulkit203.github.io/Progress-Animation/   |
 | Progress Steps              | https://pulkit203.github.io/progress-steps/       |
@@ -47,6 +28,28 @@ Simple Frontend Animation Projects.
 | Solar Rotation Animation    | https://pulkit203.github.io/Solar-rotation/       |
 | Spring Animation            | https://pulkit203.github.io/spiral-animation/     |
 | Testimonial                 | https://pulkit203.github.io/Testimonial/          |
-| Tip Calculator              |                                                   |
 | Water Animation             | https://pulkit203.github.io/Water-animation/      |
 | Wave Animation              | https://pulkit203.github.io/Wave-Animation/       |
+<br/>
+---
+
+
+# Follow these steps to contribute -
+
+1.fork the repo.
+<br/>
+2.create a new branch
+<br/>
+3.Create a new project
+<br/>
+4.add developer name (linked to your github profile) and Date at footer
+<br/>
+5.add a readme.md file and add a image of your project in it.
+<br/> 6. Open Pull Request
+<br/>
+---
+
+### Your PR will be merge.
+
+## <br/>
+
