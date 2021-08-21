@@ -4,21 +4,23 @@
 
 Simple Frontend Animation Projects.
 <br/>
+
 ---
 
 ## Project Links
 
 | Project Name                | Links                                             |
 | --------------------------- | ------------------------------------------------- |
+| Background Slider           | https://pulkit203.github.io/Background-Slider/    |
 | Bubble Animation            | https://iamtushar11.github.io/Bubble-animation/   |
 | 3D-Image-Rotation Animation | https://pulkit203.github.io/3d-image-rotation/    |
 | Car Moving Animation        | https://pulkit203.github.io/Car-moving-animation/ |
-|Clock-Animation|https://pulkit203.github.io/Clock-Animation/|
+| Clock-Animation             | https://pulkit203.github.io/Clock-Animation/      |
 | 2D to 3D animation          | https://pulkit203.github.io/3d-image-Animation/   |
 | Hamburger Animation         | https://pulkit203.github.io/Hamburger-Menu/       |
 | Loading Animation           | https://pulkit203.github.io/Loading-Animation/    |
 | Lamp Animation              | https://iamtushar11.github.io/lamp-Animation/     |
-|No Image|https://iamtushar11.github.io/See-the-Pointer/|
+| No Image                    | https://iamtushar11.github.io/See-the-Pointer/    |
 | Mode Toggler                | https://pulkit203.github.io/Mode-Toggler/         |
 | Progress Animation          | https://pulkit203.github.io/Progress-Animation/   |
 | Progress Steps              | https://pulkit203.github.io/progress-steps/       |
@@ -30,9 +32,8 @@ Simple Frontend Animation Projects.
 | Testimonial                 | https://pulkit203.github.io/Testimonial/          |
 | Water Animation             | https://pulkit203.github.io/Water-animation/      |
 | Wave Animation              | https://pulkit203.github.io/Wave-Animation/       |
-<br/>
----
 
+## <br/>
 
 # Follow these steps to contribute -
 
@@ -47,9 +48,9 @@ Simple Frontend Animation Projects.
 5.add a readme.md file and add a image of your project in it.
 <br/> 6. Open Pull Request
 <br/>
+
 ---
 
 ### Your PR will be merge.
 
 ## <br/>
-
