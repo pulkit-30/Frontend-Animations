@@ -1,13 +1,12 @@
-![Project Intro Gif](https://raw.githubusercontent.com/Pulkit203/project-intro-gif/main/Blue%20and%20Yellow%20Modern%20Artisan%20Parties%20and%20Celebrations%20X-Frame%20Banner.gif)
-
 # Frontend-Animation-Projects
 
-Simple Frontend Animation Projects.
-<br/>
+![Project Intro Gif](https://raw.githubusercontent.com/Pulkit203/project-intro-gif/main/Blue%20and%20Yellow%20Modern%20Artisan%20Parties%20and%20Celebrations%20X-Frame%20Banner.gif)
 
 ---
 
-## Project Links
+# Project Links
+
+---
 
 | Project Name                | Links                                               |
 | --------------------------- | --------------------------------------------------- |
@@ -34,7 +33,7 @@ Simple Frontend Animation Projects.
 | Wave Animation              | https://pulkit203.github.io/Wave-Animation/         |
 | Menu Hover effect           | https://lavishbansal17.github.io/Menu-Hover-Effect/ |
 
-## <br/>
+---
 
 ![Project Intro Gif](./Gif.gif)
 
@@ -53,7 +52,3 @@ Simple Frontend Animation Projects.
 <br/>
 
 ---
-
-### Your PR will be merge.
-
-## <br/>
