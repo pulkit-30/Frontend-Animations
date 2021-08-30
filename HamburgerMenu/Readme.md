@@ -1,2 +1,3 @@
-#Hamburger Animation
+# Hamburger Animation
+-----------------------
 <img src="./project.png">
