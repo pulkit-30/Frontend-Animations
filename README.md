@@ -32,6 +32,7 @@ Simple Frontend Animation Projects.
 | Testimonial                 | https://pulkit203.github.io/Testimonial/          |
 | Water Animation             | https://pulkit203.github.io/Water-animation/      |
 | Wave Animation              | https://pulkit203.github.io/Wave-Animation/       |
+|Test Link|https://determined-sammet-87dc3c.netlify.app/|
 
 ## <br/>
 
