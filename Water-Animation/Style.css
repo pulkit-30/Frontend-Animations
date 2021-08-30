@@ -153,3 +153,9 @@ h2:nth-child(6) {
     );
   }
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

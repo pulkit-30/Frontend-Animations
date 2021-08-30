@@ -225,3 +225,9 @@ h1 {
     -o-transform: scale(0);
   }
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

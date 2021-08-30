@@ -128,3 +128,9 @@ h1 {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

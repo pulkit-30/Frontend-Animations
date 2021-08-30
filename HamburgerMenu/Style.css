@@ -60,3 +60,10 @@ body {
   -ms-transform: rotate(-50deg);
   -o-transform: rotate(-50deg);
 }
+footer {
+  font-size: 15px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

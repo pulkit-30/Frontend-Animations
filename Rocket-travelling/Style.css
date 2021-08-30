@@ -142,3 +142,9 @@ body {
     -o-transform: translateY(100vh);
   }
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

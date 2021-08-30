@@ -151,6 +151,7 @@ h1 {
   width: 30px;
 }
 footer {
+  font-size: 15px;
   position: absolute;
   bottom: 0;
   color: white;

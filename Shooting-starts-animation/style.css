@@ -128,3 +128,9 @@ span:nth-child(9) {
 
   z-index: 1;
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

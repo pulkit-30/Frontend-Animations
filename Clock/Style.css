@@ -138,3 +138,9 @@ body.dark {
   width: 100vw;
   text-align: center;
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

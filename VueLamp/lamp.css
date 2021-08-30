@@ -137,3 +137,10 @@ button span {
     width: 57%;
   }
 }
+
+footer {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}

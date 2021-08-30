@@ -98,3 +98,9 @@ h1 {
   background-color: #3636361f;
   color: white;
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

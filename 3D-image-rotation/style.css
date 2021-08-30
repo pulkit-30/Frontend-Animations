@@ -57,3 +57,9 @@ body {
   -o-transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
 }
 /* .box span; */
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

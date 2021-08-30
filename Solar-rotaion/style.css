@@ -218,3 +218,9 @@ span:nth-child(5) {
 }
 
 /*  */
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

@@ -103,3 +103,9 @@ body {
     height: 10rem;
   }
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

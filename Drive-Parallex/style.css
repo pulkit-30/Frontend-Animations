@@ -37,3 +37,9 @@ body {
   height: 50vh;
   z-index: 0;
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

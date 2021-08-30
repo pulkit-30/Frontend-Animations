@@ -61,3 +61,10 @@ svg {
     stroke-dashoffset: 165;
   }
 }
+
+footer {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}

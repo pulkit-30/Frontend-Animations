@@ -72,3 +72,9 @@ body {
   top: 45%;
   left: 10%;
 }
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

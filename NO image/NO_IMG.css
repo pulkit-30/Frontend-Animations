@@ -245,3 +245,10 @@ body {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
+
+footer {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
