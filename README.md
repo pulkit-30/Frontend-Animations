@@ -33,7 +33,7 @@
 | Water Animation               | https://pulkit203.github.io/Water-animation/        |
 | Wave Animation                | https://pulkit203.github.io/Wave-Animation/         |
 | Menu Hover effect Animation   | https://lavishbansal17.github.io/Menu-Hover-Effect/ |
-|||Button Animation||https://palaksharma23.github.io/AnimatedButton/
+|Button Animation|https://palaksharma23.github.io/AnimatedButton/|
 ---
 
 ![Project Intro Gif](./Gif.gif)
