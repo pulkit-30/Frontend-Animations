@@ -15,7 +15,7 @@
 | 3D-Image-Rotation Animation   | https://pulkit203.github.io/3d-image-rotation/      |
 | Car Moving Animation          | https://pulkit203.github.io/Car-moving-animation/   |
 | Clock-Animation               | https://pulkit203.github.io/Clock-Animation/        |
-| Drive Parallex Animation      | https://pulkit203.github.io/Drive-Parallex/         |
+| Drive Parallax Animation      | https://pulkit203.github.io/Drive-Parallex/         |
 | 2D to 3D animation            | https://pulkit203.github.io/3d-image-Animation/     |
 | Hamburger Animation           | https://pulkit203.github.io/Hamburger-Menu/         |
 | Loading Animation             | https://pulkit203.github.io/Loading-Animation/      |
@@ -33,8 +33,9 @@
 | Water Animation               | https://pulkit203.github.io/Water-animation/        |
 | Wave Animation                | https://pulkit203.github.io/Wave-Animation/         |
 | Menu Hover effect Animation   | https://lavishbansal17.github.io/Menu-Hover-Effect/ |
-|Button Animation|https://palaksharma23.github.io/AnimatedButton/|
-|Ring of Fire|https://ringoffiree.netlify.app/|
+| Button Animation              | https://palaksharma23.github.io/AnimatedButton/     |
+| Ring of Fire                  | https://ringoffiree.netlify.app/                    |
+
 ---
 
 ![Project Intro Gif](./Gif.gif)
