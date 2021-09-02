@@ -105,3 +105,16 @@ footer {
   left: 5px;
   color: white;
 }
+@media (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+  .modal {
+    width: 80vw;
+    margin: auto;
+    height: 50vh;
+    position: absolute;
+    padding: 20px;
+    right: 7%;
+  }
+}
