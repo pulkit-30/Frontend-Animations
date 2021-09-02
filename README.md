@@ -37,6 +37,7 @@
 | Ring of Fire                  | https://ringoffiree.netlify.app/                         |
 | Moon Light                    | https://iamtushar11.github.io/MoonLight-Parallex-Effect/ |
 | Modal Animation               | https://pulkit203.github.io/Modal-Animation/             |
+| Gradient Drop Shadow          | https://gradientdropshadow.netlify.app/                  |
 
 ---
 
