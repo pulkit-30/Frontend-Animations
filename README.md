@@ -38,7 +38,7 @@
 | Moon Light                    | https://iamtushar11.github.io/MoonLight-Parallex-Effect/ |
 | Modal Animation               | https://pulkit203.github.io/Modal-Animation/             |
 | Gradient Drop Shadow          | https://gradientdropshadow.netlify.app/                  |
-
+| Text Animation Effect|https://textanimationeffect.netlify.app/|
 ---
 
 ![Project Intro Gif](./Gif.gif)
