@@ -40,7 +40,7 @@
 | Gradient Drop Shadow          | https://gradientdropshadow.netlify.app/                  |
 | Text Animation Effect         | https://textanimationeffect.netlify.app/                 |
 | Animation Balls               | https://pulkit203.github.io/Windows-Loading-Animation/   |
-
+||Drop Effect|||https://palaksharma23.github.io/Drop-Effect/
 ---
 
 ![Project Intro Gif](./Gif.gif)
