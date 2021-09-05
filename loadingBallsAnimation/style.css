@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #345b63;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  position: absolute;
+  top: 10px;
+  color: white;
+}
+.container {
+  position: relative;
+  /* background-color: aqua;s */
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ball {
+  position: absolute;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-reflect: below 10px
+    linear-gradient(rgba(0, 0, 0, 0.137), rgba(7, 7, 7, 0.205));
+  animation: animate 3s ease-in-out infinite;
+  -webkit-animation: animate 3s ease-in-out infinite;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.ball:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.ball:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.ball:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.ball:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.ball:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.ball:nth-child(6) {
+  animation-delay: 0.6s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    left: 0;
+  }
+  5% {
+    opacity: 1;
+    left: 5%;
+  }
+
+  95% {
+    opacity: 1;
+    left: 95%;
+  }
+  100% {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 95vw;
+    margin: auto;
+  }
+}
