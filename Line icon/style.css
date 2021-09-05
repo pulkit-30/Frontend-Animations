@@ -56,8 +56,8 @@ ul li:hover::before {
   height: 100%;
 }
 footer {
-  position: relative;
+  position: absolute;
   color: yellow;
-  top: 19rem;
-  right: 50rem;
+  bottom: 1rem;
+  left: 5rem;
 }
