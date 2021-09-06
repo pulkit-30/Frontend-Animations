@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #345b63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+h1 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #d4ecdd71;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger {
+  cursor: pointer;
+  width: 140px;
+  height: 100px;
+}
+.line {
+  border-radius: 4px;
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  margin: 20px 0px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.line:nth-child(1) {
+  width: 50px;
+}
+.line:nth-child(2) {
+  width: 140px;
+}
+.active_line:nth-child(1) {
+  transform: translate(17.5px, -5px) rotate(50deg);
+  -webkit-transform: translate(17.5px, -5px) rotate(50deg);
+  -moz-transform: translate(17.5px, -5px) rotate(50deg);
+  -ms-transform: translate(17.5px, -5px) rotate(50deg);
+  -o-transform: translate(17.5px, -5px) rotate(50deg);
+}
+.active_line:nth-child(2) {
+  transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+}
+.active_line:nth-child(3) {
+  transform: translate(33px, -5px) rotate(50deg);
+  -webkit-transform: translate(33px, -5px) rotate(50deg);
+  -moz-transform: translate(33px, -5px) rotate(50deg);
+  -ms-transform: translate(33px, -5px) rotate(50deg);
+  -o-transform: translate(33px, -5px) rotate(50deg);
+}
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+}

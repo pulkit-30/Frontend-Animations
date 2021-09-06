@@ -34,13 +34,14 @@
 | Wave Animation                | https://pulkit203.github.io/Wave-Animation/              |
 | Menu Hover effect Animation   | https://lavishbansal17.github.io/Menu-Hover-Effect/      |
 | Button Animation              | https://palaksharma23.github.io/AnimatedButton/          |
-| Ring of Fire                  | https://lavishbansal17.github.io/Ring-of-fire/                         |
+| Ring of Fire                  | https://lavishbansal17.github.io/Ring-of-fire/           |
 | Moon Light                    | https://iamtushar11.github.io/MoonLight-Parallex-Effect/ |
 | Modal Animation               | https://pulkit203.github.io/Modal-Animation/             |
-| Gradient Drop Shadow          | https://lavishbansal17.github.io/Gradient-Drop-Box/                  |
-| Text Animation Effect         | https://lavishbansal17.github.io/Text-Animation-Effect/                 |
+| Gradient Drop Shadow          | https://lavishbansal17.github.io/Gradient-Drop-Box/      |
+| Text Animation Effect         | https://lavishbansal17.github.io/Text-Animation-Effect/  |
 | Animation Balls               | https://pulkit203.github.io/Windows-Loading-Animation/   |
-| Line Icon Effect | https://lavishbansal17.github.io/Line-Icon-Effect/
+| Line Icon Effect              | https://lavishbansal17.github.io/Line-Icon-Effect/       |
+| Hamburger Animation           | https://pulkit203.github.io/Hamburger-Animtion/          |
 
 ---
 
