@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+  
+   height: 100vh;
+  
+
+}
+
+.drop {
+    font-size: 2px;
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 45%;
+    text-align: center;
+    border-radius: 30% 70% 70% 30% / 30% 33% 67% 70%;
+    border: solid rgb(251, 251, 251);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181)  ,
+               
+    inset 10px 5px 10px 0.1px rgb(245, 238, 238)  ;
+    height: 222px;
+    width: 269px;
+    animation: drop;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes drop {
+    0%{
+        height: 122px;
+        width: 169px;
+    }
+    50% {
+        height:  172px;
+        width: 219px;
+    }
+    100%{
+        height: 222px;
+        width: 269px;
+    }
+}
+
+.smalldrop {
+    font-size: 2px;
+    display: inline-block;
+    position: relative;
+    top: 46%;
+    left: -15%;
+    
+    text-align: center;
+    border-radius: 50%;
+    border: solid rgb(251, 251, 251);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181)  ,
+               
+    inset 10px 5px 10px 0.1px rgb(245, 238, 238)  ;
+    height: 192px;
+    width: 219px;
+
+}
+.leftdrop {
+
+    display: inline-block;
+    
+    
+    text-align: center;
+    border-radius: 19% 81% 48% 52% / 30% 78% 22% 70%;
+    border: solid rgb(251, 251, 251);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181)  ,
+               
+    inset 10px 5px 10px 0.1px rgb(245, 238, 238)  ;
+    height: 192px;
+    width: 219px;
+    animation: left;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes left {
+    0%{
+height: 92px;
+width: 119px;
+position: fixed;
+    top: 0%;
+    left: 0%;
+
+    }
+50%{
+    height: 142px ;
+    width: 169px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+
+}
+75%{
+    height:192px ;
+    width:219px ;
+    position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+100%{
+    height: 92px;
+width: 119px;
+position: fixed;
+    top: 0%;
+    left: 0%;
+}
+}
+.rightdrop {
+
+    display: inline-block;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    
+    text-align: center;
+    border-radius: 19% 81% 48% 52% / 68% 17% 83% 32%;
+    border: solid rgb(251, 251, 251);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181)  ,
+               
+    inset 10px 5px 10px 0.1px rgb(245, 238, 238)  ;
+    height: 192px;
+    width: 219px;
+    animation: right;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes right {
+    0%{
+
+position: fixed;
+bottom: 0%;
+right: 0%;
+
+    }
+50%{
+   
+    position: fixed;
+  bottom: 30%;
+  right: 30%;
+  height: 10px;
+  width: 10px;
+
+}
+
+100%{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+}
+
+
+footer {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    
+}
