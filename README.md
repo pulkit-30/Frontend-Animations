@@ -44,7 +44,7 @@
 | Hamburger Animation           | https://pulkit203.github.io/Hamburger-Animtion/          |
 | Drop Effect                   | https://palaksharma23.github.io/Drop-Effect/             |
 | Scroll Animation              | https://pulkit203.github.io/Scroll-Animation/            |
-
+| Shiny Button Hover Effect     | https://lavishbansal17.github.io/Shiny-Button-Hover-Effect/| 
 ---
 
 ![Project Intro Gif](./Gif.gif)
