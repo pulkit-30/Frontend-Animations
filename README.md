@@ -8,43 +8,44 @@
 
 ---
 
-| Project Name                  | Links                                                    |
-| ----------------------------- | -------------------------------------------------------- |
-| Background Slider             | https://pulkit203.github.io/Background-Slider/           |
-| Bubble Animation              | https://iamtushar11.github.io/Bubble-animation/          |
-| 3D-Image-Rotation Animation   | https://pulkit203.github.io/3d-image-rotation/           |
-| Car Moving Animation          | https://pulkit203.github.io/Car-moving-animation/        |
-| Clock-Animation               | https://pulkit203.github.io/Clock-Animation/             |
-| Drive Parallax Animation      | https://pulkit203.github.io/Drive-Parallex/              |
-| 2D to 3D animation            | https://pulkit203.github.io/3d-image-Animation/          |
-| Hamburger Animation           | https://pulkit203.github.io/Hamburger-Menu/              |
-| Loading Animation             | https://pulkit203.github.io/Loading-Animation/           |
-| Lamp Animation                | https://iamtushar11.github.io/lamp-Animation/            |
-| No Image Animation            | https://iamtushar11.github.io/See-the-Pointer/           |
-| Mode Toggler Animation        | https://pulkit203.github.io/Mode-Toggler/                |
-| Progress Animation            | https://pulkit203.github.io/Progress-Animation/          |
-| Progress Steps Animation      | https://pulkit203.github.io/progress-steps/              |
-| Rocket Travelling Animation   | https://pulkit203.github.io/Rocket-Travelling/           |
-| Rotating Navigation Animation | https://pulkit203.github.io/Rotating-Navigation/         |
-| Shooting Stars Animation      | https://pulkit203.github.io/Shooting-Stars/              |
-| Solar Rotation Animation      | https://pulkit203.github.io/Solar-rotation/              |
-| Spring Animation              | https://pulkit203.github.io/spiral-animation/            |
-| Testimonial Animation         | https://pulkit203.github.io/Testimonial/                 |
-| Water Animation               | https://pulkit203.github.io/Water-animation/             |
-| Wave Animation                | https://pulkit203.github.io/Wave-Animation/              |
-| Menu Hover effect Animation   | https://lavishbansal17.github.io/Menu-Hover-Effect/      |
-| Button Animation              | https://palaksharma23.github.io/AnimatedButton/          |
-| Ring of Fire                  | https://lavishbansal17.github.io/Ring-of-fire/           |
-| Moon Light                    | https://iamtushar11.github.io/MoonLight-Parallex-Effect/ |
-| Modal Animation               | https://pulkit203.github.io/Modal-Animation/             |
-| Gradient Drop Shadow          | https://lavishbansal17.github.io/Gradient-Drop-Box/      |
-| Text Animation Effect         | https://lavishbansal17.github.io/Text-Animation-Effect/  |
-| Animation Balls               | https://pulkit203.github.io/Windows-Loading-Animation/   |
-| Line Icon Effect              | https://lavishbansal17.github.io/Line-Icon-Effect/       |
-| Hamburger Animation           | https://pulkit203.github.io/Hamburger-Animtion/          |
-| Drop Effect                   | https://palaksharma23.github.io/Drop-Effect/             |
-| Scroll Animation              | https://pulkit203.github.io/Scroll-Animation/            |
-| Shiny Button Hover Effect     | https://lavishbansal17.github.io/Shiny-Button-Hover-Effect/| 
+| Project Name                  | Links                                                       |
+| ----------------------------- | ----------------------------------------------------------- |
+| Background Slider             | https://pulkit203.github.io/Background-Slider/              |
+| Bubble Animation              | https://iamtushar11.github.io/Bubble-animation/             |
+| 3D-Image-Rotation Animation   | https://pulkit203.github.io/3d-image-rotation/              |
+| Car Moving Animation          | https://pulkit203.github.io/Car-moving-animation/           |
+| Clock-Animation               | https://pulkit203.github.io/Clock-Animation/                |
+| Drive Parallax Animation      | https://pulkit203.github.io/Drive-Parallex/                 |
+| 2D to 3D animation            | https://pulkit203.github.io/3d-image-Animation/             |
+| Hamburger Animation           | https://pulkit203.github.io/Hamburger-Menu/                 |
+| Loading Animation             | https://pulkit203.github.io/Loading-Animation/              |
+| Lamp Animation                | https://iamtushar11.github.io/lamp-Animation/               |
+| No Image Animation            | https://iamtushar11.github.io/See-the-Pointer/              |
+| Mode Toggler Animation        | https://pulkit203.github.io/Mode-Toggler/                   |
+| Progress Animation            | https://pulkit203.github.io/Progress-Animation/             |
+| Progress Steps Animation      | https://pulkit203.github.io/progress-steps/                 |
+| Rocket Travelling Animation   | https://pulkit203.github.io/Rocket-Travelling/              |
+| Rotating Navigation Animation | https://pulkit203.github.io/Rotating-Navigation/            |
+| Shooting Stars Animation      | https://pulkit203.github.io/Shooting-Stars/                 |
+| Solar Rotation Animation      | https://pulkit203.github.io/Solar-rotation/                 |
+| Spring Animation              | https://pulkit203.github.io/spiral-animation/               |
+| Testimonial Animation         | https://pulkit203.github.io/Testimonial/                    |
+| Water Animation               | https://pulkit203.github.io/Water-animation/                |
+| Wave Animation                | https://pulkit203.github.io/Wave-Animation/                 |
+| Menu Hover effect Animation   | https://lavishbansal17.github.io/Menu-Hover-Effect/         |
+| Button Animation              | https://palaksharma23.github.io/AnimatedButton/             |
+| Ring of Fire                  | https://lavishbansal17.github.io/Ring-of-fire/              |
+| Moon Light                    | https://iamtushar11.github.io/MoonLight-Parallex-Effect/    |
+| Modal Animation               | https://pulkit203.github.io/Modal-Animation/                |
+| Gradient Drop Shadow          | https://lavishbansal17.github.io/Gradient-Drop-Box/         |
+| Text Animation Effect         | https://lavishbansal17.github.io/Text-Animation-Effect/     |
+| Animation Balls               | https://pulkit203.github.io/Windows-Loading-Animation/      |
+| Line Icon Effect              | https://lavishbansal17.github.io/Line-Icon-Effect/          |
+| Hamburger Animation           | https://pulkit203.github.io/Hamburger-Animtion/             |
+| Drop Effect                   | https://palaksharma23.github.io/Drop-Effect/                |
+| Scroll Animation              | https://pulkit203.github.io/Scroll-Animation/               |
+| Shiny Button Hover Effect     | https://lavishbansal17.github.io/Shiny-Button-Hover-Effect/ |
+
 ---
 
 ![Project Intro Gif](./Gif.gif)
