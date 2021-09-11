@@ -6,8 +6,6 @@
 
 # Project Links
 
----
-
 | Project Name                  | Links                                                       |
 | ----------------------------- | ----------------------------------------------------------- |
 | Background Slider             | https://pulkit203.github.io/Background-Slider/              |
@@ -45,8 +43,9 @@
 | Drop Effect                   | https://palaksharma23.github.io/Drop-Effect/                |
 | Scroll Animation              | https://pulkit203.github.io/Scroll-Animation/               |
 | Shiny Button Hover Effect     | https://lavishbansal17.github.io/Shiny-Button-Hover-Effect/ |
+|Glowing Effect In Two Modes|https://palaksharma23.github.io/Glowing-effect-in-light-and-night-mode/|
 
----
+
 
 ![Project Intro Gif](./Gif.gif)
 
