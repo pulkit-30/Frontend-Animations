@@ -56,11 +56,11 @@ h1 {
 
 .circle:nth-child(2) {
   opacity: 0;
-  animation-delay: 0.4s;
+  animation-delay: -0.4s;
 }
 .circle:nth-child(3) {
   opacity: 0;
-  animation-delay: 0.9s;
+  animation-delay: -0.9s;
 }
 @keyframes animate {
   0% {
