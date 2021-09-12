@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #112031;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+h1 {
+  color: white;
+  margin: 30px auto;
+}
+p {
+  width: 80vw;
+
+  margin: 50px auto;
+  line-height: 2;
+  font-size: 25px;
+}
+.scroll_box {
+  position: sticky;
+  width: 10%;
+  top: 0;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
