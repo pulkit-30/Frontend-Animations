@@ -46,7 +46,8 @@
 | Glowing Effect In Two Modes   | https://palaksharma23.github.io/Glowing-effect-in-light-and-night-mode/ |
 | Scroll Progress               | https://pulkit203.github.io/Scroll-Progress/                            |
 | Loading Balls Animation       | https://pulkit203.github.io/LoadingBalls/                               |
-|Automatic Image Slider Animation|https://palaksharma23.github.io/Automatic-Image-Changing-Animation/|
+| Automatic Image Slider Animation|https://palaksharma23.github.io/Automatic-Image-Changing-Animation/    |
+| Confetti Animation            | https://anjali1102.github.io/confetti_animation/                        |                   
 ---
 
 ![Project Intro Gif](./Gif.gif)
