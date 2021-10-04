@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: rgb(21, 0, 61);
+}
+
+.stone {
+    position: absolute;
+    width: 10px;
+    height: 140px;
+    background: linear-gradient(to top, #384284, transparent);
+    top: 100px;
+    left: 100px;
+    border-radius: 50px;
+    opacity: 0;
+    animation: stone 7s ease 0s infinite;
+}
+@keyframes stone {
+    from {
+        transform: translateY(-500%);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(500%);
+        opacity: .3;
+    }
+}
+
+.stone:nth-child(2){
+    top: 320px;
+    left: 400px;
+    animation-delay: .7s;
+    animation-duration: 6s;
+}
+.stone:nth-child(3){
+    top: 520px;
+    left: 200px;
+    animation-delay: .5s;
+    animation-duration: 3s;
+}
+.stone:nth-child(4){
+    top: 120px;
+    right: 100px;
+    left: inherit;
+    animation-delay: .2s;
+    animation-duration: 4s;
+}
+.stone:nth-child(5){
+    top: 320px;
+    right: 400px;
+    left: inherit;
+    animation-delay: .3s;
+    animation-duration: 7s;
+}
+.stone:nth-child(6){
+    top: 520px;
+    right: 200px;
+    left: inherit;
+    animation-delay: .8s;
+    animation-duration: 7s;
+}
+.stone:nth-child(7){
+    top: 0;
+    left: 40%;
+    animation-delay: .5s;
+    animation-duration: 4s;
+}
+.stone:nth-child(8){
+    top: 400px;
+    left: 55%;
+    animation-delay: .9s;
+    animation-duration: 6s;
+}
+.stone:nth-child(even){
+    background: linear-gradient(to top, #384fde, transparent);
+    box-shadow: 0 4px 94px #384fde;
+}
