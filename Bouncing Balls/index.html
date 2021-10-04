@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUNCY BALLS</title>
+    <style>body{
+            background-color: black;}
+        @keyframes ball{
+            from{margin-bottom: 0px;}
+            to{margin-bottom: 175px;}
+        }
+        
+        .bouncy-box{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            top: 20%;
+            margin: auto;
+            color: white;
+            border-style: solid;
+            border-width: 0px 0px 10px 0px;
+            border-color: white!important;
+            height: 250px;
+            width: 370px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: end;
+            
+        }
+        .ball{
+            border-radius: 1000px;
+            margin: auto;
+            margin-bottom: 0px;
+            height:45px ;
+            width: 45px;
+            animation-name: ball;
+            animation-duration: 0.8s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-out;
+        }
+        .first{ background-color: yellow;
+        animation-delay: 0.1s;}
+        .second{ background-color: aqua;
+            animation-delay: 0.9s;}
+        .third{ background-color: coral;animation-delay: 0.7s;}
+        .fourth{background-color: deeppink; animation-delay: 1.1s;}
+        .fifth{ background-color: lawngreen;animation-delay: 0.4s;}
+
+    </style>
+</head>
+<body>
+    <div class="my_info" style="margin: auto; margin-top: 20px; color: white; text-align: center;">
+        Made by: <a href="https://github.com/SamirKaushik" style="text-decoration: none; color: cyan; font-size: 25px;">Samir Kaushik</a> <br>
+        Date: 04-10-2021
+ </div>
+    <div class="box bouncy-box">
+   <div class="ball first"></div>
+   <div class="ball second"></div>
+   <div class="ball third"></div>
+   <div class="ball fourth"></div>
+   <div class="ball fifth"></div>
+    </div>
+</body>
+</html>
