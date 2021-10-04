@@ -1,2 +1,2 @@
 # BOUNCING BALLS
-![image] (https://github.com/SamirKaushik/Frontend-Animations/new/master/Bouncing%20Balls/image.jpg)
+Bouncing Balls/Screenshot (89).png
