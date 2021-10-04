@@ -1,3 +1,3 @@
-#BOUNCING BALLS
+# BOUNCING BALLS
 ⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽
-(https://github.com/SamirKaushik/Frontend-Animations/new/master/Bouncing%20Balls/image.jpg)
+![image] (https://github.com/SamirKaushik/Frontend-Animations/new/master/Bouncing%20Balls/image.jpg)
