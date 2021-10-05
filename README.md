@@ -48,7 +48,8 @@
 | Loading Balls Animation       | https://pulkit203.github.io/LoadingBalls/                               |
 | Automatic Image Slider Animation|https://palaksharma23.github.io/Automatic-Image-Changing-Animation/    |
 | Confetti Animation            | https://anjali1102.github.io/confetti_animation/                        |                   
-| Comets Animation            | https://jonathanallisson.github.io/Comets/                        |                   
+| Comets Animation            | https://jonathanallisson.github.io/Comets/                        |        
+| Glowing Dot Animation         | https://lavishbansal17.github.io/Glowing-Dot-Animation/                 |          
 ---
 
 ![Project Intro Gif](./Gif.gif)
