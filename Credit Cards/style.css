@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    position: relative;
+}
+
+.card {
+    display: grid;
+    grid-template-areas: 
+        "bank type-card"
+        "chip icon-card"
+        "number number";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    transform: rotate(35deg);
+    margin: 10px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: rotate(25deg) translate(-30px, 60px);
+    cursor: pointer;
+}
+
+.bank {
+    grid-area: bank;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0 0 15px
+}
+
+.type-card {
+    grid-area: type-card;
+    color: white;
+    text-align: right;
+    margin: 10px 15px 0 0;
+}
+
+img.chip {
+    grid-area: chip;
+    align-self: end;
+    width: 30px;
+    margin: 10px 0 10px 15px;
+}
+
+img.visa {
+    grid-area: icon-card;
+    align-self: end;
+    width: 50px;
+    margin: 0 0 0 75px;
+}
+
+.number {
+    grid-area: number;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.card-1 {
+    background-image: url(./images/world-map-1.svg);
+    z-index: 5;
+    background-color: #F39C12;
+    box-shadow: 0 0 20px 5px rgba(214, 137, 16, .5), 0 1px 0 1px #D68910;
+}
+
+.card-2 {
+    background-image: url(./images/world-map-2.svg);
+    top: 80px;
+    z-index: 4;
+    background-color: #2ECC71;
+    box-shadow: 0 0 20px 5px rgba(139, 218, 171, 0.5), 0 1px 0 1px #28B463;
+}
+
+.card-3 {
+    background-image: url(./images/world-map-3.svg);
+    top: 160px;
+    z-index: 3;
+    background-color: #16A085;
+    box-shadow: 0 0 20px 5px rgba(19, 141, 117, .5), 0 1px 0 1px #138D75;
+}
+
+.card-4 {
+    background-image: url(./images/world-map-4.svg);
+    top: 240px;
+    z-index: 2;
+    background-color: #3498DB;
+    box-shadow: 0 0 20px 5px rgba(46, 134, 193, .5), 0 1px 0 1px #2E86C1;
+}
+
+.card-5 {
+    background-image: url(./images/world-map-5.svg);
+    top: 320px;
+    z-index: 1;
+    background-color: #8E44AD;
+    box-shadow: 0 0 20px 5px rgba(125, 60, 152, .5), 0 1px 0 1px #7D3C98;
+}
+
+footer {
+    position: relative;
+    height: 110vh;
+    color: white;
+}
+
+.owner {
+    position: absolute;
+    background-color: #3498DB;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.owner a {
+    text-decoration: none;
+    color: wheat;
+}

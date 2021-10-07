@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
 
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Trispace", sans-serif;
   font-size: 5vw;
-  color: white;
+  color: #DBDBEB;
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background-color: #293b5f;
+  background-color: #080957;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -24,15 +24,21 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: #7577CD ;
   width: 100px;
   height: 100px;
   position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .line {
+  
   width: 60px;
-  height: 2px;
-  background-color: rgb(255, 255, 255);
+  height: 5px;
+  background-color: #FF6D01;
   margin: 8px;
   transition: 0.5s;
   -webkit-transition: 0.5s;

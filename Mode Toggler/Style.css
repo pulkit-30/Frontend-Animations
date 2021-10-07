@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,15 @@ body {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+}
+
+h1{
+  font-size: 50px;
+  font-family: 'Graduate', cursive;
+}
+
+h2{
+  font-size: 35px;
 }
 .toggler {
   position: relative;
