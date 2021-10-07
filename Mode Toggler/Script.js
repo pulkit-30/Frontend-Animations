@@ -4,3 +4,4 @@ toggler.addEventListener("click", () => {
   document.querySelector("body").classList.toggle("dark-mode");
   document.querySelector(".btn").classList.toggle("btn-dark-mode");
 });
+
