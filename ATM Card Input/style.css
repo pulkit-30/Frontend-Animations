@@ -1,0 +1,183 @@
+section
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gw-main
+{
+    text-align: center;
+    margin-top: 100px;
+    transition: .5s ease-in-out;
+}
+
+.gw-main h2 
+{
+    color:#6147d8;
+    font-size: 16px;
+}
+
+.gw-card-front, .gw-card-back
+{
+    position:relative;
+    width:350px;
+    margin-top: 20px;
+    background:linear-gradient(to left bottom, #c70909,#12007a);
+    border-radius: 9px;
+    padding:80px 30px;
+    padding-bottom: 40px;
+   
+}
+
+.gw-card-back
+{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.gw-card-logo
+{
+    position:absolute;
+    top:10px; 
+    width:85%;
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 50px;
+    color:#fff;
+}
+
+.gw-card-info
+{
+    
+    position:absolute;
+    top:20px;
+    left:50%;
+    width:100%;
+    transform: translateX(-50%);
+
+}
+
+.gw-card-info p
+{
+    font-size: 12px;
+    padding:5px 20px;
+    color:#b6c2e9;
+
+  
+    
+}
+
+.gw-card-number input
+{
+
+    width:80px;
+    font-size: 24px;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    background:none;
+    border:none;
+    outline:none;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gw-main input::-webkit-input-placeholder
+{
+    color:#ada0f84d;
+}
+
+.gw-card-number input::-webkit-inner-spin-button
+{
+    display:none;
+}
+
+.gw-card-expire
+{
+    margin-top: 20px;
+    color:#fff;
+    text-align: right;
+}
+
+.gw-card-expire input
+{
+    width:70px;
+    background:transparent;
+    outline:none;
+    border:none;
+    color:white;
+}
+
+.gw-card-expire label
+{
+    font-size: 13px;
+    text-transform: uppercase;
+    color:#aaa9a9;
+}
+
+
+.gw-card-back .gw-card-number input{
+    visibility: hidden;
+}
+
+.gw-card-back .gw-card-expire {
+    visibility: hidden;
+}
+
+.gw-cvv-cont
+{
+    display: flex;
+    
+}
+
+.gw-cvv-before
+{
+    position:absolute;
+    left:10px;
+    width:80%;
+    background:#ffffff;
+    height: 33px;
+    text-align: right;
+    padding-top: 9px;
+    padding-right: 10px;
+    color:#7c7c7c;
+}
+
+.gw-cvv input
+{
+    width:10%;
+    background:#eae8fa;
+    position:absolute;
+    right:10px;
+    height:40px;
+    width:50px;
+    border: none;
+    outline:none;
+    text-align: center;
+    
+    
+}
+
+.gw-cvv input::-webkit-inner-spin-button
+{
+    display: none;
+}
+
+.gw-cvv input::-webkit-input-placeholder
+{
+
+    color:#ac96fd71;
+}
+
+.gw-card-back
+{
+ 
+    transform:rotateY(180deg);
+    display: none;
+}
+
+.gw-card
+{
+    transition: .8s ease-in-out;
+}

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read.me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="animation.js"></script>
+</head>
+<body>
+ 
+    <section class="container">
+
+        <div class="gw-main">
+
+          <form method="post" action="/payment" id="cardPaymentForm">
+              <div class="gw-card">
+                  <div class="gw-card-front">
+                      <div class="gw-card-logo">
+                          <i class="fa fa-credit-card"></i>
+                          <i class="fab fa-cc-visa"></i>
+                          <i class="fab fa-cc-mastercard"></i>
+                          <i class="fab fa-cc-discover"></i>
+                          <i class="fab fa-cc-amex"></i>
+                      </div>
+                      <div class="gw-card-number">
+                          <input type="number" class="gw-cn-one" placeholder="3734" name="" id="">
+                          <input type="number" class="gw-cn-two"placeholder="2352" name="" id="">
+                          <input type="number" class="gw-cn-three" placeholder="8697" name="" id="">
+                          <input type="number" class="gw-cn-four" placeholder="3423" name="" id="">
+                      </div>
+                      <div class="gw-card-expire">
+                          <label>Valid Thru</label>
+                          <input placeholder="07/22" class="gw-ce-date" type="text">
+                      </div>
+                  </div>
+                  <div class="gw-card-back">
+                      <div class="gw-card-info">
+                          <p>Please make sure that you are entering valid details, otherwise payment will not get processed. Please cross validate once again.</p>
+                      </div>
+                      <div class="gw-card-number">
+                          <input type="number" class="gw-cn-one" placeholder="3734" name="" id="">
+                          <input type="number" class="gw-cn-two" placeholder="2352" name="" id="">
+                          <input type="number" class="gw-cn-three" placeholder="8697" name="" id="">
+                          <input type="number" class="gw-cn-four" placeholder="3423" name="" id="">
+                      </div>
+                      <div class="gw-cvv-cont">
+                          <div class="gw-cvv-before">
+                              cvv
+                          </div>
+                          <div class="gw-cvv">
+                              <input type="number" placeholder="348" name="" id="">
+                          </div>
+                      </div>
+                      <div class="gw-card-expire">
+                          <label>Valid Thru</label>
+                          <input placeholder="07/22" class="gw-ce-date" type="text">
+                      </div>
+                  </div>
+              </div>
+          </form>
+        </div>
+
+     
+    </section>
+   
+ </body>
+ </html>
+ 
