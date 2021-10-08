@@ -53,6 +53,7 @@
 | Neumorphism Gradient Loader   | https://lavishbansal17.github.io/Neumorphism-Gradient-Loader/           |
 | Card Flip on Hold             | https://gabrielgomeso.github.io/card_flip.html                          |
 | Credit Cards                  | https://iqbalutomo.github.io/credit-cards/                              |
+| Loader Glowing                | https://jonathanallisson.github.io/loader/                              |
 
 ---
 
