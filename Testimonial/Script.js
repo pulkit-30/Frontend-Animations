@@ -23,6 +23,12 @@ let data = [
       "https://www.gannett-cdn.com/-mm-/ae811a38ccb7ca7681c5cd9edc7e0bae36516e06/c=261-0-2174-2550/local/-/media/2015/10/08/Phoenix/Phoenix/635799268539755113-ae-lennon09e.jpg",
     name: "John Lennon",
   },
+  {
+    text: "Our country has the oldest tradition of storytelling, and this was much before writing stories even became a norm",
+    avtar:
+      "https://www.forbesindia.com/media/images/2017/Feb/img_93509_ashwinsanghi_01_jn_big.jpg",
+    name: "Ashwin Sanghi" ,
+  }
 ];
 const quote = document.querySelector(".quote");
 const name = document.querySelector(".name");
