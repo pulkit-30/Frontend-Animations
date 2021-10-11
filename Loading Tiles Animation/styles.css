@@ -1,0 +1,31 @@
+body{
+	background-color: #000000;
+}
+
+.container{
+	width: 120px;
+	margin: 200px auto;
+    margin-bottom: 100px;
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	background-color: #14d6b6;
+	display: inline-block;
+	animation: pulse 0.6s ease-in infinite alternate;
+}
+.box2, .box3{
+	animation-delay: 0.6s;
+}
+
+@Keyframes pulse{
+	100%{
+		opacity: 0;
+	}
+}
+h2{
+    color: #14d6b6;
+    font-style: italic;
+    text-align: center;
+}
