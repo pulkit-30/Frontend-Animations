@@ -39,7 +39,7 @@ img.wave {
     width: 100vw;
     display: block;
     position: absolute;
-    bottom: 0;
+    top: 40vh;
 }
 
 .wave.one {
@@ -70,11 +70,8 @@ img.wave {
 .footer {
     background-image: linear-gradient(#032B43, #011522);
     box-shadow: 0 -20px 200px #032B43;
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    height: 500px;
+    position: relative;
+    height: 50vh;
+    width: 100vw;
     z-index: 2;
 }
