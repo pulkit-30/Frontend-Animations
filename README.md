@@ -54,6 +54,7 @@
 | Card Flip on Hold             | https://gabrielgomeso.github.io/card_flip.html                          |
 | Credit Cards                  | https://iqbalutomo.github.io/credit-cards/                              |
 | Loader Glowing                | https://jonathanallisson.github.io/loader/                              |
+| Parallax Sunset               | https://sinc0115.github.io/                                  |
 
 ---
 

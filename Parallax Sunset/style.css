@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+	padding: 0;
+}
+
+#container {
+    background-image: linear-gradient(#ff9e61, #ff7620);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    perspective-origin: center;
+}
+
+#parallax {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    transform: scale(0.9);
+    transition: transform 250ms ease-out;
+}
+
+.sun {
+    background-image: url(images/sun.svg);
+    width: 100vw;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+img.wave {
+    width: 100vw;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.wave.one {
+    transform: translateY(1vh);
+    animation: animateZ 5s infinite ease-in-out;
+}
+.wave.two {
+    transform: translateY(1vh);
+    animation: animateZ 7s infinite ease-in-out;
+}
+.wave.three {
+    transform: translateY(1vh);
+    animation: animateZ 4s infinite ease-in-out;
+}
+
+@keyframes animateZ {
+    0% {
+        transform: translateY(1vh);
+    }
+    50% {
+        transform: translateY(10vh);
+    }
+    100% {
+        transform: translateY(1vh);
+    }
+}
+
+.footer {
+    background-image: linear-gradient(#032B43, #011522);
+    box-shadow: 0 -20px 200px #032B43;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 500px;
+    z-index: 2;
+}
