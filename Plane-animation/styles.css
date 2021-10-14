@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #EBEDF0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#plane {
+    position: absolute;
+    animation: plane 2s ease infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes plane {
+    from {
+      transform: rotate(15deg) translateY(-30px);
+    }
+    to {
+      transform: rotate(-10deg) translateY(30px);
+    }
+  }
+
+.wind1,
+.wind2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    opacity: 1;
+}
+
+.wind1 {
+    top: 20%;
+    animation: winds 4s ease-in-out infinite;
+}
+
+.wind2 {
+    top: 60%;
+    animation: winds 6s ease-in-out infinite;
+    }
+  
+@keyframes winds {
+    0% {
+        right: 0%;
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        right: 100%;
+        opacity: 1;
+    }
+}
