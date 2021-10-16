@@ -56,7 +56,7 @@
 | Loader Glowing                | https://jonathanallisson.github.io/loader/                              |
 | Parallax Sunset               | https://sinc0115.github.io/parallax-sunset/                             |
 | Captain America Animation     | https://jonathanallisson.github.io/Captain/                             |
-
+| Plane Animation               | https://jonathanallisson.github.io/plane/                               |
 ---
 
 ![Project Intro Gif](./Gif.gif)
