@@ -57,7 +57,8 @@
 | Parallax Sunset               | https://sinc0115.github.io/parallax-sunset/                             |
 | Captain America Animation     | https://jonathanallisson.github.io/Captain/                             |
 | Plane Animation               | https://jonathanallisson.github.io/plane/                               |
----
+| Isometric social media icon   | https://lavishbansal17.github.io/Isometric-social-media-icon/           |
+- --
 
 ![Project Intro Gif](./Gif.gif)
 
