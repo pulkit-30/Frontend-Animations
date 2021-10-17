@@ -58,6 +58,7 @@
 | Captain America Animation     | https://jonathanallisson.github.io/Captain/                             |
 | Plane Animation               | https://jonathanallisson.github.io/plane/                               |
 | Isometric social media icon   | https://lavishbansal17.github.io/Isometric-social-media-icon/           |
+| Skill Bar                     | https://lavishbansal17.github.io/Skill-Bar/                             |
 - --
 
 ![Project Intro Gif](./Gif.gif)
