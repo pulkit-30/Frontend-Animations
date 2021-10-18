@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #010A26;
+	animation-name: colors;
+	animation-duration: 15s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+	0% {background-color:#010A26;}
+	25% {background-color:#03318C;}
+	50% {background-color:#023059;}
+	100% {background-color:#1763A6;}
+}
+
+section {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #DCEEF2;
+	text-align: center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h1 {
+	font-size:50pt;
+}
+
+p {
+	font-size:25pt;
+}
+
+a {
+	color: black;
+}
