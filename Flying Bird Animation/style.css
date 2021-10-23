@@ -5,7 +5,10 @@
 *::after {
 	box-sizing: border-box;
 }
+body{
 
+	background-color: rgb(226, 145, 24);
+}
 .container {
 	z-index: 1;
 	position: relative;
