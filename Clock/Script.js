@@ -22,16 +22,28 @@ const dayArray = [
   "Saturday",
   "Sunday",
 ];
-const updateTime = () => {
-  const date = new Date();
-  const minute = date.getMinutes();
-  const time = date.getHours() % 12;
-  const seconds = date.getSeconds();
-  const day = date.getDay();
-  timeEl.textContent = `${time}:${minute}`;
+var updateTime = () => {
+  var date = new Date();
+  var minute = date.getMinutes()+10;
+
+  var time = date.getHours()%12;
+
+  var seconds = date.getSeconds()+26;
+  if(seconds>=60)
+  {
+  minute=minute+1;
+    seconds=seconds%60;
+}
+  if(minute>=60)
+  {
+    time=time+1;
+  minute=minute%60;
+  }
+  var day = date.getDay();
+  timeEl.textContent = `${time}:${minute}:${seconds}`;
   day_date.textContent = `${
     dayArray[day - 1]
-  },${date.getDate()} | ${date.getMonth()} | ${date.getFullYear()} `;
+  },${date.getDate()} | ${date.getMonth()+1} | ${date.getFullYear()} `;
   hour.style.transform = `translate(50%, -50%) rotate(${scale(
     time + minute * 0.01,
     0,
