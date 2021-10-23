@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #362222;
+  background-color: #054858;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -14,7 +14,7 @@ body {
   align-items: center;
 }
 h1 {
-  color: #ffffff;
+  color: #6e0606;
   font-family: sans-serif;
   position: absolute;
   top: 0;
