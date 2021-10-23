@@ -56,7 +56,7 @@ class Heart {
       }
       push();
       translate(this.x, this.y);
-      fill(255, 101, 186, opacity * 255);
+      fill(255, 5, 5, opacity * 255);
       beginShape();
       for (let v of this.points) {
         vertex(this.pulse * v.x, this.pulse * v.y);
