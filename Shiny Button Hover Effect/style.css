@@ -11,6 +11,9 @@ body {
   flex-direction: column;
   background: #19011d;
 }
+.date{
+  margin-top: 50px;
+}
 a {
   position: relative;
   padding: 15px 30px;
