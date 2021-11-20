@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Search Box</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: #e84118;
+        }
+        .search-box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: 40px;
+            border-radius: 40px;
+            background-color: #2f3640;
+            padding: 10px;
+        }
+        .search-btn{
+            color: #e84118;
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #2f3640;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+        .search-txt{
+            border: none;
+            background: none;
+            outline: none;
+            float: left;
+            padding: 0px;
+            color: white;
+            font-size: 16px;
+            transition: 0.5s;
+            line-height: 40px;
+            width: 0px;
+        }
+        .search-box:hover > .search-txt{
+            width: 240px;
+            padding: 0px 6px;
+        }
+        .search-box:hover > .search-btn{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Type to Search">
+        <a class="search-btn" href="#" ><i class="fa fa-search"></i></a>
+    </div>
+</body>
+</html>
