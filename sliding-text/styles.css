@@ -1,0 +1,97 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Custom Styles */
+  
+  .aan-body {
+    background-image: linear-gradient(45deg, #000, #111);
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1.aan-title {
+    color: transparent;
+    opacity: 0;
+    animation-name: change-color;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    /*   animation-direction: alternate; */
+    animation-iteration-count: 1;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    background-image: linear-gradient(90deg, #00c6ff, #0072ff);
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+  
+  h1.aan-title:after {
+    content: "Great !";
+    animation-name: change-text, change-text-animation;
+    animation-duration: 10s, 2s;
+    animation-delay: 1s, 2s;
+    animation-direction: normal, reverse-alternative;
+    animation-timing-function: ease-in-out, ease;
+    animation-iteration-count: infinite, infinite;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #ffefba, #fff);
+    color: transparent;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+  }
+  
+  /* Animations */
+  
+  @keyframes change-color {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes change-text {
+    20% {
+      content: "an open-souce program";
+    }
+    40% {
+      content: "fun";
+    }
+    60% {
+      content: "Fantastic";
+    }
+    80% {
+      content: "Enjoyable";
+    }
+    100% {
+      content: "Awesome";
+    }
+  }
+  
+  @keyframes change-text-animation {
+    0% {
+      bottom: 60px;
+      opacity: 0;
+    }
+    50% {
+      bottom: 0px;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      bottom: -60px;
+    }
+  }
+  
