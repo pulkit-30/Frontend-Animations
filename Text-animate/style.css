@@ -1,0 +1,101 @@
+body {
+	font-family: sans-serif;
+	background: #06283D;
+	overflow: hidden;
+}
+.typewriter {
+	width: fit-content;
+	margin: 0 auto;
+	display: flex;
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 30px;
+	color: #DFF6FF;
+	margin-top: 4rem;
+	text-align: center;
+	position: relative;
+}
+
+h1::before,
+h1::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+}
+
+h1::before {
+	background: #06283D;
+	animation: typewriter 4s steps(13) forwards 1s;
+}
+
+h1::after {
+	width: 5px;
+	background: #DFF6FF;
+	animation: blink 600ms steps(13) forwards infinite,
+		typewriter 4s steps(13) forwards 1s;
+}
+
+@keyframes typewriter {
+	to {
+		left: 100%;
+	}
+}
+
+@keyframes blink {
+	to {
+		background: transparent;
+	}
+}
+
+
+
+
+h1 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 80px;
+	font-weight: 400;
+	color: #DFF6FF;
+}
+
+.wave {
+	font-size: 120px;
+	position: relative;
+}
+
+span {
+	transform: translate(-50%, 0) rotate(-10deg);
+	transform-origin: 100% 100%;
+	left: 50%;
+	display: block;
+	position: absolute;
+	animation: wave 350ms ease-in-out alternate;
+}
+
+@keyframes wave {
+	0% {
+		transform: translate(-50%, 0) rotate(15deg);
+	}
+	100% {
+		transform: translate(-50%, 0) rotate(-10deg);
+	}
+}
+span {
+	transform: translate(-50%, 0) rotate(-10deg);
+	transform-origin: 100% 100%;
+	left: 50%;
+	display: block;
+	position: absolute;
+	animation: wave 350ms ease-in-out alternate infinite;
+}
+
+@keyframes wave {
+	0% {
+		transform: translate(-50%, 0) rotate(15deg);
+	}
+	100% {
+		transform: translate(-50%, 0) rotate(-10deg);
+	}
+}
