@@ -48,15 +48,18 @@
 | Loading Balls Animation       | https://pulkit203.github.io/LoadingBalls/                               |
 | Automatic Image Slider Animation|https://palaksharma23.github.io/Automatic-Image-Changing-Animation/    |
 | Confetti Animation            | https://anjali1102.github.io/confetti_animation/                        |                   
-| Comets Animation            | https://jonathanallisson.github.io/Comets/                        |        
+| Comets Animation              | https://jonathanallisson.github.io/Comets/                              |        
 | Glowing Dot Animation         | https://lavishbansal17.github.io/Glowing-Dot-Animation/                 |      
 | Neumorphism Gradient Loader   | https://lavishbansal17.github.io/Neumorphism-Gradient-Loader/           |
 | Card Flip on Hold             | https://gabrielgomeso.github.io/card_flip.html                          |
 | Credit Cards                  | https://iqbalutomo.github.io/credit-cards/                              |
 | ATM Card Form                 | https://prasadpoojary.github.io/Frontend-Animations/ATM%20Card%20Input  |
-
-
----
+| Loader Glowing                | https://jonathanallisson.github.io/loader/                              |
+| Parallax Sunset               | https://sinc0115.github.io/parallax-sunset/                             |
+| Captain America Animation     | https://jonathanallisson.github.io/Captain/                             |
+| Plane Animation               | https://jonathanallisson.github.io/plane/                               |
+| Isometric social media icon   | https://lavishbansal17.github.io/Isometric-social-media-icon/           |
+| Skill Bar                     | https://lavishbansal17.github.io/Skill-Bar/                             |
 
 ![Project Intro Gif](./Gif.gif)
 

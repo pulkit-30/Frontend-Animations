@@ -1,0 +1,52 @@
+body {
+  background: #fefae0;
+}
+.pre-loader {
+  width: 150px;
+  height: 50px;
+  margin: 100px auto 0;
+  border-bottom: 4px solid #0c8b00;
+  position: relative;
+  animation: animate 3s infinite linear;
+}
+.pre-loader:before {
+  content: "";
+  background: #fb5000;
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  clip-path: circle(40%);
+  animation: animate1 3s infinite linear;
+}
+@keyframes animate {
+  0%,
+  100% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+}
+@keyframes animate1 {
+  0%,
+  100% {
+    transform: rotate(0);
+    left: 0;
+  }
+  50% {
+    transform: rotate(200deg);
+    left: calc(100% - 40px);
+  }
+}
+.foot {
+  margin: auto;
+  margin-top: 40vh;
+  color: rgb(0, 109, 211);
+  text-align: center;
+}
+.name {
+  color: #0071f1;
+}

@@ -1,0 +1,63 @@
+*{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgba(211, 211, 211, 0.274);
+        }
+        .svg-soccer-animation{
+            position: absolute;
+            top: 8%;
+            left: 15%;
+            padding: 40px;
+            /* border: 2px solid gray; */
+            border-radius: 150px;
+            box-shadow: 0px 5px 10px 3px rgba(124, 122, 122, 0.562);
+            background-color: rgba(128, 128, 128, 0.096);
+        }
+        #Vector_16 ,#Vector_17 ,#Vector_6,#Vector_7{
+            animation: changecolor 1.5s infinite 0s alternate ease-in;
+        }
+        /* ball color */
+        #Vector_23 {
+        animation: changecolor 1.5s infinite 0s alternate ease-in;
+        }
+        @keyframes changecolor{
+            0%{fill: rgba(250, 2, 2, 0.733);}
+            100%{fill: rgb(0, 153, 255);}
+        }
+        #soccer-ball{
+            animation: ball-motion 1s ease-out  0s infinite alternate ;
+        }
+        @keyframes ball-motion {
+            0%{transform: translateY(0);}
+            100%{transform: translateY(-100px);}
+        }
+        #shoe{
+            animation: s-rotate 2s ease-in infinite;
+            transform-origin: right;
+            transform-box: fill-box;
+        }
+        @keyframes s-rotate{
+            5%{transform: rotate(8deg);}
+            70%{transform: rotate(-4deg);}
+        }
+        #right-hand{
+            animation: rh-rotate 2s none 0.1s infinite ;
+            transform-origin: right;
+            transform-box: fill-box;
+        }
+        @keyframes rh-rotate{
+            40%{transform: rotate(-10deg);}
+            90%{transform: rotate(12deg);}
+        }
+        #left-hand{
+            animation: lh-rotate 2s none 0.1s infinite ;
+            transform-origin: top left;
+            transform-box: fill-box;
+        }
+        @keyframes lh-rotate{
+            40%{transform: rotate(7deg);}
+            90%{transform: rotate(-5deg);}
+        }
